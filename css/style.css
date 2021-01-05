@@ -1,0 +1,32 @@
+body{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 10px;
+    line-height: 1.5;
+    }
+    header,nav,main,footer{
+        width: 600px;
+        background-color: aquamarine;
+        color: aliceblue;
+        margin: 1.25rem auto;
+        max-width: 760px;
+    }
+    header,
+    footer{
+        width: 600px;
+        background-color: aquamarine;
+        color: aliceblue;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+    }
+    header {
+        padding: 1.5rem;
+    
+    }
+    img {
+        float: right;
+        margin: 10px;
+        border: 1px solid cyan;
+        
+    }

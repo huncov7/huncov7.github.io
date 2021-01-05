@@ -1,0 +1,9 @@
+let set = new date(document.lastModified);
+let month = set.Month() + 1;
+let date = set.Date();
+let year = set.Year();
+let hour = set.Hour();
+let minute = set.Minute();
+let second = set.Second();
+let update = month + "/" + date + "/" + year + " " + hour + ":" + minute + ":" + second;
+document.getElementById("time").innerHTML = main;
